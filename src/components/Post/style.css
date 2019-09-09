@@ -1,0 +1,97 @@
+.postagem{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.Post{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left{
+  display: flex;
+  align-items: center;
+}
+
+.left img{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  
+}
+
+.left .name {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.Post .data_post{
+  font-size: 12px;
+  color: gray;
+  padding: 3px;
+}
+
+.post_content {
+  margin-top: 15px;
+  padding-bottom: 25px;
+  border-bottom: 1px rgb(202, 202, 202) solid;
+}
+
+.comentarios{
+  display:flex;
+  flex-direction: column;
+
+
+}
+
+.Post span {
+  height: 21px;
+  padding: 3px;
+  margin-top: 15px;
+  font-size: 10px;
+  cursor: pointer;  
+  }
+
+  .comentar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+  }
+
+  .textarea-container{
+    margin-top: 30px
+  }
+  
+  .textarea-container textarea{
+    padding: 10px;
+    width: 100%;
+    resize: none;
+  }
+
+  button.comment_form {
+    float:right;
+    border-color: #29447e #29447e #1a356e;
+    color: #fff;
+    background-color: #5B74A8;
+    background-image: linear-gradient(#637bad, #5872a7);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1), inset 0 1px 0 #8a9cc2;
+    position: relative;
+    z-index: 1;
+    overflow: visible;
+    display: inline-block;
+    padding: 0.3em 0.6em 0.375em;
+    border: 1px solid #999;
+    margin: 0;
+    text-decoration: none;
+    text-align: center;
+    font: bold 11px/normal 'lucida grande', tahoma, verdana, arial, sans-serif;
+    white-space: nowrap;
+    cursor: pointer;
+    zoom: 1;
+  }
